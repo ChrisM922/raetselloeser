@@ -19,8 +19,8 @@ Before setting up the project, ensure you have the following installed:
 Start by cloning the repository to your local machine:
 
 ```bash
-
-git clone https://github.com/your-username/Raetselloeser.git `
+git clone https://github.com/your-username/Raetselloeser.git
+```
 
 Replace `your-username` with your GitHub username.
 
@@ -34,7 +34,8 @@ json
 
 Copy code
 
-`{
+```bash
+{
 
   "ConnectionStrings": {
 
@@ -48,7 +49,8 @@ Copy code
 
   }
 
-}`
+}
+```
 
 -   Replace `"your-database-connection-string"` with your actual MongoDB connection string.
 
@@ -62,7 +64,9 @@ Set up environment variables to configure the application. This is recommended f
 
     Copy code
 
-    `setx ConnectionStrings__DefaultConnection "your-database-connection-string"`
+    ```bash
+    setx ConnectionStrings__DefaultConnection "your-database-connection-string"
+    ```
 
 -   **Linux/macOS (Terminal):**
 
@@ -70,7 +74,9 @@ Set up environment variables to configure the application. This is recommended f
 
     Copy code
 
-    `export ConnectionStrings__DefaultConnection="your-database-connection-string"`
+    ```bash
+    export ConnectionStrings__DefaultConnection="your-database-connection-string"
+    ```
 
 Make sure to replace `"your-database-connection-string"` with the actual values.
 
@@ -88,7 +94,9 @@ Make sure to replace `"your-database-connection-string"` with the actual values.
 
         Copy code
 
-        `dotnet build`
+        ```bash
+        dotnet build
+        ```
 
 3\.  Ensure there are no build errors before proceeding.
 
@@ -106,7 +114,9 @@ bash
 
 Copy code
 
-`dotnet run --project ./Raetselloeser`
+```bash
+dotnet run --project ./Raetselloeser
+```
 
 The application should now be up and running.
 
