@@ -94,8 +94,10 @@ You can run the project using Visual Studio's debugging tools:
 
 For command-line execution:
 
+- Navigate to the root of the project then execute the following command in the Terminal:
+
 ```
-dotnet run --project ./Raetselloeser
+dotnet run ./Raetselloeser
 ```
 
 The application should now be up and running.
