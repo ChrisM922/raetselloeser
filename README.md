@@ -102,7 +102,7 @@ dotnet run ./raetselloeser
 
 The application should now be up and running.
 
-Contributing
+### Contributing
 
 ------------
 
