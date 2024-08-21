@@ -34,14 +34,14 @@ json
 
 Copy code
 
-`{
+```{
   "ConnectionStrings": {
     "DefaultConnection": "your-database-connection-string"
   },
   "OtherSettings": {
     // Add other settings here as needed
   }
-}`
+}```
 
 - Replace `"your-database-connection-string"` with your actual MongoDB connection string.
 
