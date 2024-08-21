@@ -18,7 +18,7 @@ Before setting up the project, ensure you have the following installed:
 
 Start by cloning the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/your-username/Raetselloeser.git
 ```
 
@@ -30,7 +30,7 @@ Replace `your-username` with your GitHub username.
 
 Create an `appsettings.json` file in the root directory of the project with the following structure:
 
-```bash
+```
 {
 
   "ConnectionStrings": {
@@ -56,13 +56,13 @@ Set up environment variables to configure the application. This is recommended f
 
 -   **Windows (Command Prompt or PowerShell):**
 
-    ```bash
+    ```
     setx ConnectionStrings__DefaultConnection "your-database-connection-string"
     ```
 
 -   **Linux/macOS (Terminal):**
 
-    ```bash
+    ```
     export ConnectionStrings__DefaultConnection="your-database-connection-string"
     ```
 
@@ -78,7 +78,7 @@ Make sure to replace `"your-database-connection-string"` with the actual values.
 
     -   Using the command line:
 
-        ```bash
+        ```
         dotnet build
         ```
 
@@ -94,7 +94,7 @@ You can run the project using Visual Studio's debugging tools:
 
 For command-line execution:
 
-```bash
+```
 dotnet run --project ./Raetselloeser
 ```
 
