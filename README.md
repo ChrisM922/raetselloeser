@@ -1,4 +1,4 @@
-`# Raetselloeser
+# Raetselloeser
 
 **Raetselloeser** is a C# console application designed to solve specific tasks related to puzzles or crosswords. This README provides instructions for setting up and running the project.
 
