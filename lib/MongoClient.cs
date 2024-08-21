@@ -1,5 +1,8 @@
+using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using MongoDB.Bson;
+using System;
+using System.IO;
 
 public class MongoClientProvider
 {
@@ -7,9 +10,21 @@ public class MongoClientProvider
 
   public MongoClientProvider()
   {
-    const string connectionUri = "mongodb+srv://raetselloeser:o30qNGN3cub70Axn@raetselloeser.4nx8t.mongodb.net/?retryWrites=true&w=majority&appName=Raetselloeser";
+    // Set up configuration sources
+    var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddUserSecrets<Program>() // Add this line
+    .AddEnvironmentVariables()
+    .Build();
+
+    // Retrieve the MongoDB connection string
+    var connectionUri = Environment.GetEnvironmentVariable("MONGODB_URI")
+      ?? throw new InvalidOperationException("Connection string is missing.");
+
     var settings = MongoClientSettings.FromConnectionString(connectionUri);
     settings.ServerApi = new ServerApi(ServerApiVersion.V1);
+
     _client = new MongoClient(settings);
 
     // Ping to check the connection
@@ -18,9 +33,13 @@ public class MongoClientProvider
       var result = _client.GetDatabase("admin").RunCommand<BsonDocument>(new BsonDocument("ping", 1));
       Console.WriteLine("Pinged your deployment. You successfully connected to MongoDB!");
     }
+    catch (MongoException ex)
+    {
+      Console.WriteLine($"MongoDB connection error: {ex.Message}");
+    }
     catch (Exception ex)
     {
-      Console.WriteLine(ex);
+      Console.WriteLine($"An unexpected error occurred: {ex.Message}");
     }
   }
 

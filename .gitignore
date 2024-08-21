@@ -1,0 +1,155 @@
+# Ignore Visual Studio temporary files, build results, and
+# various operating system files.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Nunit test results
+[Tt]est[Rr]esult.xml
+nunit-*.xml
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Rider
+.idea/
+
+# User Secret files (used in development)
+secrets.json
+
+# dotenv environment variables file
+.env
+.env.local
+
+# AppSettings file (if added later for testing or local development)
+appsettings.json
+appsettings.Development.json
+
+# Ignore generated files from the build process
+**/bin/
+**/obj/
+
+# Ignore publish output
+**/publish/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if using NuGet 3+
+# which supports restoring packages from the command line
+packages/
+# Uncomment if necessary however generally it will be restored at build
+# !packages/*/
+
+# Ignore Azure Web Apps publish settings
+.publishsettings
+
+# IIS Express settings
+/.vs/
+
+# Local History for Visual Studio
+.vs/ 
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# npm packages
+node_modules/
+npm-debug.log
+
+# Yarn
+.yarn/
+.yarnrc.yml
+.yarn-cache/
+.pnp.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & log files
+*.bak
+*.log
+*.swp
+*~.nib
+*.pid
+*.seed
+*.pid.lock
