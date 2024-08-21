@@ -30,7 +30,7 @@ Replace `your-username` with your GitHub username.
 
 Create an `appsettings.json` file in the root directory of the project with the following structure:
 
-```json
+```bash
 {
 
   "ConnectionStrings": {
