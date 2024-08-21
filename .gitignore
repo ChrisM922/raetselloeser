@@ -484,7 +484,7 @@ $RECYCLE.BIN/
 *.swp
 
 # environment variables file
-.appsettings.json
+appsettings.json
 .env
 .env.test
 .env.development
