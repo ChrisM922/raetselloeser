@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("raetselloeser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6647daae4a8d4edef9be802df3033047be553ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1097d6d760adcb7f89e90be1149f9c7a26100f79")]
 [assembly: System.Reflection.AssemblyProductAttribute("raetselloeser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("raetselloeser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

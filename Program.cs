@@ -25,7 +25,7 @@
     Console.WriteLine("Current Directory: " + currentDirectory);
 
     string tessDataPath = Path.Combine(currentDirectory, "lib", "tessdata");
-    string testImagePath = Path.Combine(currentDirectory, "DemoRaetzel", "DigitalErstelltesRaetsel.png");
+    string testImagePath = Path.Combine(currentDirectory, "DemoRaetzel", "strafgesetzbuch-stgb-strafgesetze-ddr-1954-seite_151.jpg");
 
     TesseractService tesseractService = new TesseractService(tessDataPath);
 
