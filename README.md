@@ -97,7 +97,7 @@ For command-line execution:
 - Navigate to the root of the project then execute the following command in the Terminal:
 
 ```
-dotnet run ./Raetselloeser
+dotnet run ./raetselloeser
 ```
 
 The application should now be up and running.
