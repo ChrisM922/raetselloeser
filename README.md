@@ -30,11 +30,7 @@ Replace `your-username` with your GitHub username.
 
 Create an `appsettings.json` file in the root directory of the project with the following structure:
 
-json
-
-Copy code
-
-```bash
+```json
 {
 
   "ConnectionStrings": {
@@ -61,9 +57,6 @@ Set up environment variables to configure the application. This is recommended f
 -   **Windows (Command Prompt or PowerShell):**
 
     bash
-
-    Copy code
-
     ```bash
     setx ConnectionStrings__DefaultConnection "your-database-connection-string"
     ```
@@ -71,9 +64,6 @@ Set up environment variables to configure the application. This is recommended f
 -   **Linux/macOS (Terminal):**
 
     bash
-
-    Copy code
-
     ```bash
     export ConnectionStrings__DefaultConnection="your-database-connection-string"
     ```
@@ -91,9 +81,6 @@ Make sure to replace `"your-database-connection-string"` with the actual values.
     -   Using the command line:
 
         bash
-
-        Copy code
-
         ```bash
         dotnet build
         ```
@@ -111,9 +98,6 @@ You can run the project using Visual Studio's debugging tools:
 For command-line execution:
 
 bash
-
-Copy code
-
 ```bash
 dotnet run --project ./Raetselloeser
 ```
