@@ -118,13 +118,13 @@ If you would like to contribute to this project, please follow these steps:
 
 5\.  Create a pull request to the `main` branch of this repository.
 
-License
+###License
 
 -------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+###Contact
 
 -------
 
