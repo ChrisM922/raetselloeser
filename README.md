@@ -42,7 +42,8 @@ Copy code
   "OtherSettings": {
     // Add other settings here as needed
   }
-}```
+}
+```bash
 
 - Replace `"your-database-connection-string"` with your actual MongoDB connection string.
 
