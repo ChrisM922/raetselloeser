@@ -1,4 +1,4 @@
-`# Raetselloeser
+# Raetselloeser
 
 **Raetselloeser** is a C# console application designed to solve specific tasks related to puzzles or crosswords. This README provides instructions for setting up and running the project.
 
@@ -94,13 +94,15 @@ You can run the project using Visual Studio's debugging tools:
 
 For command-line execution:
 
+- Navigate to the root of the project then execute the following command in the Terminal:
+
 ```
-dotnet run --project ./Raetselloeser
+dotnet run ./raetselloeser
 ```
 
 The application should now be up and running.
 
-Contributing
+### Contributing
 
 ------------
 
@@ -116,13 +118,13 @@ If you would like to contribute to this project, please follow these steps:
 
 5\.  Create a pull request to the `main` branch of this repository.
 
-License
+### License
 
 -------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+### Contact
 
 -------
 
