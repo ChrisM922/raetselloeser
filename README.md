@@ -19,10 +19,8 @@ Before setting up the project, ensure you have the following installed:
 Start by cloning the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/Raetselloeser.git
+git clone https://github.com/your-username/Raetselloeser.git](https://github.com/ChrisM922/raetselloeser.git
 ```
-
-Replace `your-username` with your GitHub username.
 
 ### 2\. Configure the Application
 
